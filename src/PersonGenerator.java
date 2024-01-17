@@ -15,7 +15,7 @@ public class PersonGenerator
         Scanner in =new Scanner(System.in);
 
         File workingDirectory = new File(System.getProperty("user.dir"));
-        Path file = Paths.get(workingDirectory.getPath() + "\\src\\personData.txt");
+        Path file = Paths.get(workingDirectory.getPath() + "\\src\\PersonTestData.txt");
 
         boolean done;
         /*

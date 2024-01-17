@@ -17,7 +17,7 @@ public class PersonGenerator
         File workingDirectory = new File(System.getProperty("user.dir"));
         Path file = Paths.get(workingDirectory.getPath() + "\\src\\personData.txt");
 
-        boolean done = false;
+        boolean done;
         /*
         a. ID (a String)
         b. FirstName
@@ -26,12 +26,12 @@ public class PersonGenerator
         e. YearOfBirth (an int)
          */
 
-        String personRec = "";
-        String ID = "";
-        String firstName = "";
-        String lastName = "";
-        String title = "";
-        int YOB = 0;
+        String personRec;
+        String ID;
+        String firstName;
+        String lastName;
+        String title;
+        int YOB;
 
         do {
 
@@ -73,8 +73,7 @@ public class PersonGenerator
             writer.close(); // must close the file to seal it and flush buffer
             System.out.println("Data file written!");
         }
-        catch (IOException e)
-        {
+        catch (IOException e) {
             e.printStackTrace();
         }
     }

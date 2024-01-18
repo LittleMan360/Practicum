@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c6cc33-ecb6-441f-b069-8d4ae13b6268" name="Changes" comment="changed text file name to correct name was perondata.txt now is PersonTestData.txt">
+    <list default="true" id="d4c6cc33-ecb6-441f-b069-8d4ae13b6268" name="Changes" comment="fixed product prompts to correct prompts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProductWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductWriter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,7 @@
       <recent name="C:\Users\dalto\IdeaProjects\Practicum\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProductReader">
     <configuration name="PersonGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PersonGenerator" />
       <module name="Person_Model" />
@@ -52,8 +54,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductReader" />
+      <module name="Person_Model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProductWriter" />
+      <module name="Person_Model" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProductReader" />
+        <item itemvalue="Application.ProductWriter" />
         <item itemvalue="Application.PersonGenerator" />
       </list>
     </recent_temporary>
@@ -102,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705534946977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed product prompts to correct prompts">
+      <created>1705535082160</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705535082160</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,6 +136,7 @@
     <MESSAGE value="created product writer code" />
     <MESSAGE value="Created product reader class to read the selected text file" />
     <MESSAGE value="changed text file name to correct name was perondata.txt now is PersonTestData.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed text file name to correct name was perondata.txt now is PersonTestData.txt" />
+    <MESSAGE value="fixed product prompts to correct prompts" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed product prompts to correct prompts" />
   </component>
 </project>

@@ -39,7 +39,7 @@ public class ProductWriter
             productID = SafeInput.getNonZeroLenString(in,"Enter the product ID [6 digits]");
             productName = SafeInput.getNonZeroLenString(in,"Enter the product name");
             description = SafeInput.getNonZeroLenString(in,"Enter the description");
-            cost = SafeInput.getRangedInt(in,"Enter the cost ", 1000, 9999);
+            cost = SafeInput.getDouble(in,"Enter the cost ");
 
             productRec = productID + ", " + productName + ", " + description + ", " + cost;
 

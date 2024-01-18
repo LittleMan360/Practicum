@@ -11,7 +11,7 @@ public class ProductReader
     {
         JFileChooser chooser = new JFileChooser();
         File selectedFile;
-        String rec = "";
+        String rec ;
 
         try {
             // uses a fixed known path:
@@ -47,7 +47,7 @@ public class ProductReader
                     rec = reader.readLine();
                     line++ ;
                     // echo to screen
-                    System.out.printf("\n %1d %-60s ", line, rec);
+                    System.out.printf("\n %1d %-60s ",line , rec);
                 }
                 reader.close(); // must close the file to seal it and flush buffer
                 System.out.println("\n\nData file read!");

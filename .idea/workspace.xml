@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4c6cc33-ecb6-441f-b069-8d4ae13b6268" name="Changes" comment="fixed product prompts to correct prompts">
+    <list default="true" id="d4c6cc33-ecb6-441f-b069-8d4ae13b6268" name="Changes" comment="created the reader class and tested to make sure it shows it in the required chart">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_17_2024_5_56_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_17_2024_5_56_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductWriter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d1b289d5-21de-42e9-a8cd-ed8dd5f5936f" />
+        <option name="url" value="https://github.com/LittleMan360/Practicum.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -38,7 +52,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;
+    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.ApplicationConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,7 +61,7 @@
       <recent name="C:\Users\dalto\IdeaProjects\Practicum\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProductReader">
+  <component name="RunManager" selected="Application.PersonReader">
     <configuration name="PersonGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PersonGenerator" />
       <module name="Person_Model" />
@@ -54,15 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProductReader" />
-      <module name="Person_Model" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProductWriter" />
+    <configuration name="PersonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PersonReader" />
       <module name="Person_Model" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,8 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProductReader" />
-        <item itemvalue="Application.ProductWriter" />
+        <item itemvalue="Application.PersonReader" />
         <item itemvalue="Application.PersonGenerator" />
       </list>
     </recent_temporary>
@@ -99,44 +106,25 @@
       <option name="project" value="LOCAL" />
       <updated>1705221991129</updated>
     </task>
-    <task id="LOCAL-00003" summary="created product writer code">
-      <created>1705534168265</created>
+    <task id="LOCAL-00003" summary="created save to disk from NIO write disk">
+      <created>1705223501861</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1705534168265</updated>
+      <updated>1705223501861</updated>
     </task>
-    <task id="LOCAL-00004" summary="Created product reader class to read the selected text file">
-      <created>1705534755972</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1705534755972</updated>
-    </task>
-    <task id="LOCAL-00005" summary="changed text file name to correct name was perondata.txt now is PersonTestData.txt">
-      <created>1705534946976</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1705534946977</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fixed product prompts to correct prompts">
-      <created>1705535082160</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1705535082160</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial setup" />
     <MESSAGE value="created array list and set up scanner in" />
-    <MESSAGE value="created product writer code" />
-    <MESSAGE value="Created product reader class to read the selected text file" />
-    <MESSAGE value="changed text file name to correct name was perondata.txt now is PersonTestData.txt" />
-    <MESSAGE value="fixed product prompts to correct prompts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed product prompts to correct prompts" />
+    <MESSAGE value="created save to disk from NIO write disk" />
+    <MESSAGE value="created the reader class and tested to make sure it shows it in the required chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="created the reader class and tested to make sure it shows it in the required chart" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -12,7 +12,7 @@ public class PersonReader
     {
         JFileChooser chooser = new JFileChooser();
         File selectedFile;
-        String rec = "";
+        String rec;
 
         try {
             // uses a fixed known path:

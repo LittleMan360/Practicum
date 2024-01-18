@@ -11,7 +11,7 @@ public class ProductReader
     {
         JFileChooser chooser = new JFileChooser();
         File selectedFile;
-        String rec ;
+        String rec;
 
         try {
             // uses a fixed known path:
